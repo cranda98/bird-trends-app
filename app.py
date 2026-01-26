@@ -4,10 +4,11 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 import plotly.graph_objects as go
 import numpy as np
+import gzip
 
 # Load data
 trends = pd.read_csv("data/species_trend_predictions.csv")
-df = pd.read_csv("data/ebd_MI_threecounties.csv")
+df = pd.read_csv("data/ebd_MI_threecounties.csv.gz", compression='gzip')
 
 # Preprocess
 df["OBSERVATION DATE"] = pd.to_datetime(df["OBSERVATION DATE"], errors="coerce")
