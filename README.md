@@ -82,6 +82,10 @@ pip install pandas numpy dash plotly
 ```bash
 project-root/
 ├── app.py
+├── pyproject.toml
+├── uv.lock
+├── .python-version
+├── .gitignore
 ├── data/
 │   ├── ebd_MI_threecounties.csv.gz
 │   └── species_trend_predictions.csv
