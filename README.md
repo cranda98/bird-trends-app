@@ -193,7 +193,7 @@ This project is intended for:
 
 ## License
 
-This project uses eBird data. Please review eBird's [Terms of Use]([https://www.ebird.org/about/terms-of-use](https://ebird.org/about/products-access-terms-of-use) for data usage policies.
+This project uses eBird data. Please review eBird's [Terms of Use](https://ebird.org/about/products-access-terms-of-use) for data usage policies.
 
 ## Acknowledgments
 
