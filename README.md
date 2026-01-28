@@ -102,9 +102,12 @@ Verify installation:
 uv --version
 ```
 
-### 2. Clone or Download the Project
+### 2. Clone and Navigate to the Project
 
-Navigate to the project root directory.
+```bash
+git clone https://github.com/cranda98/bird-trends-app
+cd bird-trends-app
+```
 
 ### 3. Install Dependencies
 
