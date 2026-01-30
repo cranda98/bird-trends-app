@@ -147,6 +147,11 @@ http://127.0.0.1:8050/
 
 Open this URL in your web browser to access the dashboard.
 
+## Example Dashboard View
+
+![Dashboard screenshot](figures/figure1.jpg)
+
+
 ## Application Usage
 
 ### User Inputs
