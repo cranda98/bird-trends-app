@@ -4,7 +4,6 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 import plotly.graph_objects as go
 import numpy as np
-import gzip
 
 # Load data
 trends = pd.read_csv("data/species_trend_predictions.csv")
