@@ -85,6 +85,10 @@ def update_plot(county, species):
     obs_by_year = sub_obs.groupby("year")["OBSERVATION COUNT"].sum().reset_index()
     obs_by_year = obs_by_year[obs_by_year["OBSERVATION COUNT"] >= 5]
 
+    # Check if obs_by_year is empty after filtering
+    if obs_by_year.empty:
+        return go.Figure(), f"Insufficient data for {species} in {county} (all yearly counts < 5)."
+
     fig = go.Figure()
     fig.add_trace(go.Scatter(
         x=obs_by_year["year"],
